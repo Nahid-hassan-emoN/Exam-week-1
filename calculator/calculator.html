@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container ">
+        <h2 class="text-center"> Calculator</h2>
+        <div class="row">
+
+            <form id="calculator-form">
+                <div class="form-group">
+                    <label for="num1">Enter First Number:</label>
+                    <input type="number" class="form-control" id="num1" required>
+                </div>
+                <div class="form-group">
+                    <label for="num2">Enter Second Number:</label>
+                    <input type="number" class="form-control" id="num2" required>
+                </div>
+                <div class="form-group">
+                    <label for="operation">Select Operation:</label>
+                    <select class="form-control" id="operation">
+                        <option value="addition">Addition (+)</option>
+                        <option value="subtraction">Subtraction (-)</option>
+                        <option value="multiplication">Multiplication (*)</option>
+                        <option value="division">Division (/)</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Calculate</button>
+            </form>
+            <div class="mt-4">
+                <h4>Result:</h4>
+                <p id="result"></p>
+                <p id="error" class="text-danger"></p>
+            </div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
