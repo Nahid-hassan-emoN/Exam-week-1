@@ -42,7 +42,7 @@ class BankAccount {
 
 // Create two instances of BankAccount
 let account1 = new BankAccount(12345, "Nahid Hassan", 1000);
-let account2 = new BankAccount(67890, "Emon", 500);
+let account2 = new BankAccount(67890, "Emon", 400);
 
 // Deposit, Withdraw, and Display Account Information
 account1.displayAccountInfo();
